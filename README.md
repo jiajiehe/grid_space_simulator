@@ -29,17 +29,17 @@ When planning the optimal path from starting point to destination, one reliable 
 ### Experiment 1
 starting point is (3,26)(row = 3, col = 26), destination point is (28,2)
 30*30 50 iterations, 300 obstacles,
-![Alt text](images/Figure_0.png)
+![Alt text](images/Figure_1.png)
 
 ### Experiment 2
 starting point is (0,96), destination point is (81,9)
 100*100 100 iterations, 1000 obstacles
-2
+![Alt text](images/Figure_2.png)
 
 ### Experiment 3
 starting point is (0,96), destination point is (81,9)
 100*100 150 iterations, 4000 obstacles
-3
+![Alt text](images/Figure_3.png)
 
 Note1: If there are too many obstacles, it is possible that there doesn't exist any route from starting point to the destination.
 Note2: If the program hasn't gone through enough iterations, it may not be able to compute the best route.
